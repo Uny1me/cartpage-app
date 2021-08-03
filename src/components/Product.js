@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CakeSix from '../images/cake-six.png'
 // Bootstrap Items
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Container from 'react-bootstrap/Container';
+import { Card, Image, ListGroup, Container } from 'react-bootstrap';
+
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus, faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons'

@@ -6,10 +6,9 @@ import CakeFive from '../images/cake-five.png'
 import CakeSix from '../images/cake-six.png'
 
 
-import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusCircle, faMinusCircle, faTrash, faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons'
-import { Button, Container, Card } from 'react-bootstrap';
+import { Button, Container, Card, Image } from 'react-bootstrap';
 
 class CartItem extends Component {
     render() {
