@@ -35,12 +35,12 @@ class CartItem extends Component {
                         </Card.Body>
 
                         <Card.Footer className="d-flex justify-content-between align-items-center justify-content-md-end" >
-                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '15px' }}>
+                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '0px' }}>
                                 <FontAwesomeIcon icon={faMinusCircle} size='lg' className='text-secondary' />
                                 <input type="text" className="bg-light text-secondary m-3 mt-0 mb-0" style={{ width: '70px', marginLeft: '0px', marginRight: '0px', borderRadius: '25px', paddingLeft: '30px', border: '1px none gray', fontWeight: 'bold' }} value="1" />
                                 <FontAwesomeIcon icon={faPlusCircle} size='lg' className='text-secondary' />
                             </div>
-                            <Button className="d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '1px solid transparent' }}>
+                            <Button className="p-0 d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '1px solid transparent' }}>
                                 <FontAwesomeIcon icon={faTrash} style={{ paddingBottom: '10px' }} size='2x' className='text-secondary' />
                                 <p style={{ paddingLeft: '12px', paddingRight: '0px', marginTop: '12px', fontWeight: 'bold' }}>REMOVE</p>
                             </Button>
@@ -67,12 +67,12 @@ class CartItem extends Component {
                         </Card.Body>
 
                         <Card.Footer className="d-flex justify-content-between align-items-center justify-content-md-end" >
-                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '15px' }}>
+                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '0px' }}>
                                 <FontAwesomeIcon icon={faMinusCircle} size='lg' className='text-secondary' />
                                 <input type="text" className="bg-light text-secondary m-3 mt-0 mb-0" style={{ width: '70px', marginLeft: '0px', marginRight: '0px', borderRadius: '25px', paddingLeft: '30px', border: '1px none gray', fontWeight: 'bold' }} value="2" />
                                 <FontAwesomeIcon icon={faPlusCircle} size='lg' className='text-secondary' />
                             </div>
-                            <Button className="d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '1px solid transparent' }}>
+                            <Button className="p-0 d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '1px solid transparent' }}>
                                 <FontAwesomeIcon icon={faTrash} style={{ paddingBottom: '10px' }} size='2x' className='text-secondary' />
                                 <p style={{ paddingLeft: '12px', paddingRight: '0px', marginTop: '12px', fontWeight: 'bold' }}>REMOVE</p>
                             </Button>
@@ -99,12 +99,12 @@ class CartItem extends Component {
                         </Card.Body>
 
                         <Card.Footer className="d-flex justify-content-between align-items-center justify-content-md-end">
-                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '15px' }}>
+                            <div className="d-flex d-md-none align-items-center" style={{ paddingRight: '15px', paddingLeft: '0px' }}>
                                 <FontAwesomeIcon icon={faMinusCircle} size='lg' className='text-secondary' />
                                 <input type="text" className="bg-light text-secondary m-3 mt-0 mb-0" style={{ width: '70px', marginLeft: '0px', marginRight: '0px', borderRadius: '25px', paddingLeft: '30px', border: '1px none gray', fontWeight: 'bold' }} value="4" />
                                 <FontAwesomeIcon icon={faPlusCircle} size='lg' className='text-secondary' />
                             </div>
-                            <Button className="d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '1px solid transparent' }}>
+                            <Button className="p-0 d-flex justify-content-center align-items-center text-secondary" style={{ background: 'none', border: '0px solid transparent' }}>
                                 <FontAwesomeIcon icon={faTrash} style={{ paddingBottom: '10px' }} size='2x' className='text-secondary' />
                                 <p style={{ paddingLeft: '12px', paddingRight: '0px', marginTop: '12px', fontWeight: 'bold' }}>REMOVE</p>
                             </Button>
