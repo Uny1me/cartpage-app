@@ -5,3 +5,58 @@ body {
 strong {
   font-size: 1.2rem
 }
+
+/* Product Js */
+.product-body {
+  font-family: Poppins, sans-serif;
+  border-style: none;
+  /* padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 10px; */
+}
+
+
+.btn-yefepere {background-image: linear-gradient(to right, #E87924 0%, #dd701d  51%, #fd872d  100%)}
+.btn-yefepere {
+   background-size: 200% auto;
+   transition: .5s !important;
+ }
+
+ .btn-yefepere:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   border-color: #E87924 !important;
+ }
+
+
+
+  @media (min-width:768px) {
+  .mar-shift {
+    margin: 0 !important;
+    margin-left: 1rem !important;
+  }
+}
+
+
+@media (min-width:576px) {
+  .card-group > .card:not(:first-child) {
+    border-radius: 4px;
+    border-style: solid;
+    /* border-color: var(--bs-secondary); */
+  }
+}
+
+@media (min-width:576px) {
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 2rem;
+  }
+}
+
+.m-0 {
+  margin: 0!important;
+  margin-left: 1rem !important;
+}
+

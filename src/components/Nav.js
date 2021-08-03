@@ -6,7 +6,7 @@ class Nav extends Component {
     render() {
         return (
             <div>
-                <Navbar.Brand href="#home" className='d-flex p-4'>
+                <Navbar.Brand href="/" className='d-flex p-4 pb-0'>
                     <img src={BrandLogo}
                         width="30"
                         height="30"

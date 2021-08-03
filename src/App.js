@@ -1,17 +1,27 @@
 import './App.css';
 import Nav from './components/Nav';
 import CartItem from './components/CartItem';
+import Product from './components/Product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-function App() {
+
+const MainPage = () => {
   return (
-    <div className="App">
+    <div >
       <Nav />
       <CartItem />
-      {/* Hello world */}
     </div>
   );
 }
 
-export default App;
+const ProductPage = () => {
+  return (
+    <div >
+      <Nav />
+      <Product />
+    </div>
+  );
+}
+
+export { MainPage, ProductPage };

@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// For Routing
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// Part Pages
+import { MainPage, ProductPage } from './App';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <Router>
+    <Switch>
+      <Route exact path="/" component={MainPage} />
+      <Route exact path="/prodpage" component={ProductPage} />
+    </Switch>
+  </Router>,
   document.getElementById('root')
 );
 
